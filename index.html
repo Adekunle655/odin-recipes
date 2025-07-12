@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
-    <center><h1 class: dah;>Special-recipes</h1></center><br>
-    <img src="recipe.jpg" alt="Recipe Image" width="300"><br>
-     <ul>
+    <span class="gg">
+    <ul>
     <li><a href="recipes/ebaandegusi.html">Eba and Egusi</a></li>
     <li><a href="recipes/riceandstew.html">Rice and Stew</a></li>
     <li><a href="recipes/yamandstew.html">Yam and Stew</a></li>
-  </ul> 
-
+  </ul><br> </span>
+    <center><h1 class: dah;>Special-recipes</h1></center><br>
+    <img src="recipe.jpg" alt="Recipe Image" width="300"><br>
 <style>
     *{
         margin: 0;
@@ -47,15 +47,22 @@
         bottom: 0;
         border-radius: 10px;
     }
+    span.gg {
+        background-color: grey;
+        color: white;
+    }
     ul {
         list-style-type: none;
-        padding: 0;
+        padding:0;
         display: flex;
-        flex-direction: column;
-        float:right;
+        flex-direction: row;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     li {
         margin: 10px 0;
+        padding: 8px;
     }
     a {
         color: black;

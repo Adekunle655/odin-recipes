@@ -5,8 +5,8 @@
         box-sizing: border-box;
     }
     body{
-        background-color: black;
-        color: white;
+        background-color: #f0f0f0;
+        color: rgb(7, 6, 6);
         font-family: Arial, sans-serif;
     }
     img {
@@ -27,7 +27,7 @@
         margin: 10px 0;
     }
     a {
-        color: white;
+        color: black;
         text-decoration: underline;
     }
     a:hover {
